@@ -1,1 +1,1 @@
-git 
+This repository contains my practice projects, notes, and experiments while learning React.
