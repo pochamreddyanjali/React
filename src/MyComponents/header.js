@@ -1,6 +1,6 @@
 import React from 'react'
-
-export default function header(props) {
+import PropTypes from 'prop-types'
+export default function Header(props) {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <div className="container-fluid">
@@ -45,4 +45,7 @@ export default function header(props) {
   </div>
 </nav>
   )
+}
+Header.propTypes={
+  title:PropTypes.string
 }
